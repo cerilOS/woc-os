@@ -9,7 +9,7 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-raise(AttributeError(resource_path('')))
+# raise(AttributeError(resource_path('')))
 basedir = resource_path('')
 
 class Application(tk.Frame):
